@@ -1,0 +1,87 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(Alaska-Photo-HD.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.divi{
+    padding: 10px;
+    height: 320px;
+    width: 300px;
+    background-color: #fbfcfb9d;
+    border-radius: 12px;
+}
+
+.nombre{
+    margin: auto;
+    display: block;
+    width: 282px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600px;
+    color: #1b3243cb;
+    margin-bottom: 25px;
+    background-color: #f1f5f5bb;
+    border-radius: 8px;
+    padding: 10px;
+
+}
+
+.formulario{
+    text-align: center;
+}
+
+.divi input{
+    display: block;
+    text-align: center;
+    margin: auto;
+    height: 40px;
+    width: 92%;
+    padding-left: 10px;
+    border: 1px solid #0f0f0f8e;
+    border-radius: 7px;
+    padding-top: 6px;
+    background-color: #dee6e95d;
+    font-size: 17px;
+    padding-bottom: 4.5px;
+    
+
+}
+
+.divi  input[type="text"] {
+    margin-top: 40px;
+}
+
+.divi  input[type="password"] {
+    margin-top: 24px;
+}
+
+::placeholder{
+    color: #1b3243;
+}
+
+.divi button {
+    font-size: 16px;
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    height: 40px;
+    width: 80%;
+    background: #f1f5f5bb;
+    color: #1b3243;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid;
+    transition: all 0.5s ease;
+}
